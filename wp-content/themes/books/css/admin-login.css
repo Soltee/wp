@@ -1,0 +1,132 @@
+body.login
+{
+	/*background-image:url("../img/bk.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position:center;*/
+	/*background-color: rgba(0, 0, 0, .3);*/
+	display : grid;
+	grid-template-columns: repeat(2. 1fr);
+	height: 100vh;
+	overflow: hidden;
+
+}
+
+#login{
+	box-shadow:2px 3px rgba(0, 0, 0, .3);
+}
+
+/*body.login:before{
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 100vh;
+	left: 0;
+	background-image: url('../img/login_ill.svg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position:center;
+	/*background-image: url('../img/login_ill.svg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position:center;*/
+}*/
+
+/*body.login:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	background-image: url('../img/login_ill.svg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position:center;
+}*/
+body.login div#login {
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;height: 100vh;
+	padding: 10px;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body.login div#login h1 a {
+    background-image: url("../img/logo.svg");
+    background-size: cover;
+}
+
+.login form{
+box-shadow:none;
+padding:20px;
+}
+#login {
+background: #FFF;
+margin: 50px auto;
+padding: 20px 20px 40px 20px;
+width: 400px;
+}
+.login label {
+color: #555;
+font-size: 14px;
+}
+.login form .forgetmenot{
+float:none;
+}
+
+
+#login form p.submit{
+margin-top:15px;
+}
+.login.wp-core-ui .button-primary {
+background: #7B417A;
+border-color:#7B417A;
+box-shadow: 0 1px 0 #7B417A;
+color: #FFF;
+text-shadow: none;
+float: none;
+clear: both;
+display: block;
+width: 100%;
+padding: 7px;
+height: auto;
+font-size: 15px;
+}
+
+/*Remove Password Rest Link*/
+p#nav
+{
+display: none;
+}
+
+/*Remove Got back*/
+p#backtoblog
+{
+display: none;
+}
+
+
+/*body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}*/
